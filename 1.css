@@ -1,0 +1,333 @@
+body{
+    background-image: url("bgui.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: repeat;
+}
+#one{
+    height: 2000px;
+    
+}
+ul,li{
+    list-style: none;
+}
+#nav{
+
+    display: flex;
+    justify-content: space-around;
+    color: crimson;
+    font-size: 38.85px;
+    font-weight: bolder;
+    font-family: 'Inter';
+}
+#roofza{
+    height:70.33px;
+    width: 200.64px;
+    background-image: url("roof.png");
+    background-size: cover;
+  
+}
+#firstline{
+    font-size: 70px;
+    text-align: center;
+    font-family: "karantina";
+}
+.shop{
+    width: 225.65px;
+    height: 55.81px;
+    border-radius: 23.75px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 28.5px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    background:linear-gradient(to right ,#E48791 5%,#BB3232 90%,#737373 100%);
+    color: #950B0B;
+}
+#one{
+    width: 50%;
+    display: inline-block;
+    height:780px;
+    background-image: url("paani.png");
+    background-size: cover;
+    
+}
+#two{
+    width: 528px;
+    height:780px;
+    margin: auto;
+    display: inline-block;
+    height: 100px;
+    height: 609.26px;
+    font-family: 'Inder';
+    font-size: 28.5px;
+    text-align: center;
+}
+#two2{
+    width: 50%;
+    display: inline-block;
+    height:780px;
+    background-image: url("pinky.png");
+    background-size: cover;
+    margin-right: 10px;
+}
+#one1{
+    width: 528px;
+    height:780px;
+    margin: 250px auto 0 auto;
+    display: inline-block;
+    height: 100px;
+    height: 609.26px;
+    font-family: 'Inder';
+    font-size: 28.5px;
+    text-align: center;
+}
+.do{
+    display: flex;
+}
+.dono{
+    display: flex;
+}
+
+#b1{
+    height: 235.43px;
+    width: 186.89px;
+    border-radius: 18.2px;
+    background-color: #E8B7BE;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+#b2{
+    height: 235.43px;
+    background-color: #E8B7BE;
+    width: 186.89px;
+    border-radius: 18.2px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+#b3{
+    height: 235.43px;
+    width: 186.89px;
+    background-color: #E8B7BE;
+    border-radius: 18.2px;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    
+}
+#b4{
+    height: 235.43px;
+    width: 186.89px;
+    background-color: #E8B7BE;
+    border-radius: 18.2px;
+    justify-content: center;
+    align-items: flex-end;
+    display: flex;
+    
+}
+#b4::after{
+    content: "";
+
+}
+.teenbottle{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.chote {
+    position: absolute;
+    z-index: 1; /* Behind the wave */
+    height: 100%;
+    width: 100%;
+    background-image: url("batli.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: opacity 0.5s ease;
+}
+
+
+#footNav{
+    display: inline-block;
+    font-family: 'Inter';
+    font-size: 14.25px;
+    height: 120px;
+    width: 200px;
+    text-align: left;
+    font-weight:bolder;
+    color: #950B0B;
+}
+#navHead{
+    font-size: 28.5px;
+    font-weight: bolder;
+}
+
+#footAdd{
+    display: inline-block;
+    font-family: 'Inter';
+    height: 120px;
+    width: 200px;
+    text-align: left;
+    font-size: 14.25px;
+    font-weight:bolder;
+    color: #950B0B;
+    
+}
+#addHead{
+    font-size: 28.5px;
+    font-weight: bolder;
+}
+
+#footContact{
+    height: 120px;
+    display: inline-block;
+    font-family: 'Inter';
+    font-size: 14.25px;
+    text-align: left;
+    width: 240px;
+    font-weight:bolder;
+    color: #950B0B;
+    flex-shrink: 1.5;
+    
+}
+#contactHead{
+    font-size:28.5px;
+    font-weight: bolder;
+}
+#roohfza1{
+    height:70.33px;
+    width: 200.64px;
+    display: inline-block;
+    background-image: url("roof.png");
+    background-size: cover;
+    margin-right: 17rem;
+    margin-left: 13rem;
+
+}
+#foott{
+    display: flex;
+    margin-top: 10px;
+    /* justify-content: space-around; */
+}
+
+/*animate*/
+.cup {
+    position: relative;
+    margin-top: 20px;
+    height: 235.43px;
+    width: 186.89px;
+    border-radius: 18.2px;
+    background-color: transparent; /* Changed from #E8B7BE to transparent */
+    overflow: hidden;
+    z-index: 1;
+}
+
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 18.2px; /* Match cup's border-radius */
+    z-index: 2;
+}
+
+.wave:before,
+.wave:after {
+    content: '';
+    position: absolute;
+    width: 250%; /* Increased to cover more area */
+    height: 250%; /* Increased to cover more area */
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: rgba(187, 50, 50, 0.5);
+    transition: top 1s ease-out;
+}
+
+.wave:before {
+    border-radius: 45%;
+    background: rgba(149, 11, 11, 0.9);
+}
+
+.wave:after {
+    border-radius: 40%;
+    background: rgba(244, 243, 243, 0.7);
+}
+
+.cup-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease 0.1s;
+    z-index: 3; /* Above everything */
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);
+}
+
+/* Hover state */
+.cup:hover .wave:before,
+.cup:hover .wave:after {
+    animation: animate 2.5s linear infinite;
+    top: -30px; /* Adjusted rise height */  
+    background: #E8B7BE;
+}
+
+.cup:hover .cup-info {
+    opacity: 1;
+}
+
+.cup:hover .chote {
+    z-index: 1; /* Hide bottle when hovering */
+    background-color: #950B0B;
+}
+
+.cup:not(:hover) .chote {
+    opacity: 1; /* Keep visible by default */
+    z-index: 3;
+}
+
+.cup:not(:hover) .wave {
+    opacity: 0; /* Keep visible by default */
+}
+
+
+/* Initial state (visible when not hovering) */
+.cup:not(:hover) .cup-info {
+    opacity: 0; /* Keep visible by default */
+}
+
+/* Animation */
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+}
+
+/*shop*/
+.shop:hover{
+    width: 225.65px;
+    height: 55.81px;
+    border-radius: 23.75px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 28.5px;
+    align-items: center;
+    display: block;
+    margin: 0 auto;
+    color: whitesmoke;
+    transition: color 0.2s ease;
+}
